@@ -45,6 +45,7 @@ Once initial access is achieved as a low-privileged user, look for SUID binaries
      ```
   2. Use `systemctl` to link and enable the service, which executes the command as root.
   3. Retrieve the flag: `cat /tmp/output`.
+  ```
 
 ---
 
